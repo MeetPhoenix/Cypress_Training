@@ -13,6 +13,8 @@ context('Actions', () => {
     cy.get(':nth-child(1) > .form-control').type('cypressdemo@gmail.com')
     cy.get(':nth-child(2) > .form-control').type('cypressdemo')
     cy.get('.btn').click()
+    cy.get('.ion-gear-a').click()
+    cy.get('.btn-outline-danger').click()
   //   // https://on.cypress.io/type
   //   cy.get('.action-email').type('fake@email.com')
   //   cy.get('.action-email').should('have.value', 'fake@email.com')
